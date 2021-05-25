@@ -1,0 +1,25 @@
+{
+  "name": "dicier",
+  "version": "1.0.0",
+  "description": "This Foundry module is intended to be used as a dependency by other modules, it does very little on its own.",
+  "main": "module.json",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zeel01/fvtt-dicier-font.git"
+  },
+  "author": "zeel, Speak The Sky",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zeel01/fvtt-dicier-font/issues"
+  },
+  "homepage": "https://github.com/zeel01/fvtt-dicier-font#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "sass": "^1.34.0"
+  }
+}
