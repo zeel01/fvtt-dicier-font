@@ -1,0 +1,19 @@
+{
+	"name": "dicier-font",
+	"title": "Dicier Font",
+	"authors": [
+		{
+			"name": "zeel",
+			"email": "zeel02@gmail.com",
+			"url": "https://github.com/zeel01",
+			"discord": "zeel#4200"
+		}
+	],
+	"version": "100.0.0.0",
+	"minimumCoreVersion": "0.7.6",
+	"compatibleCoreVersion": "0.8.6",
+	"minimumSystemVersion": "1.2.3",
+	"styles": [
+		"css/dicier.css"
+	]
+}
