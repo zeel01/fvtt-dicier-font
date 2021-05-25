@@ -1,94 +1,96 @@
 @import "fonts";
 
-i {
-	&.dicier {
-		font-family: dicier-round;
-		
-		/* Base Styles */
 
-		font-style: normal;
-		font-variant-ligatures: common-ligatures discretionary-ligatures contextual;
-		font-variant-alternates: stylistic(alternates);
+.dicier {
+	/* Base Styles */
+	font-family: dicier-round;
+	font-variant-ligatures: common-ligatures discretionary-ligatures contextual;
 
 
-		/* Slashed Zero */
+	/* Weight */
 
-		.slash-zero { font-variant-numeric: slashed-zero; }
-
-		
-		/* Shape Variants */
-
-		&.round { font-family: dicier-round; }
-		&.block { font-family: dicier-block; }
-		&.flat  { font-family: dicier-flat;  }
-		&.pixel { font-family: dicier-pixel; }
+	&.light { font-weight: normal; }
+	&.heavy { font-weight: bold; }
+	&.dark  { font-weight: 900; }
 
 
-		/* Dice Shapes */
+	/* Slashed Zero */
 
-		&.d4  { font-feature-settings: "ss12"; }
-		&.d6  { font-feature-settings: "ss06"; }
-		&.d8  { font-feature-settings: "ss13"; }
-		&.d10 { font-feature-settings: "ss14"; }
-		&.d12 { font-feature-settings: "ss15"; }
-		&.d20 { font-feature-settings: "ss16"; }
+	&.slash-zero { font-variant-numeric: slashed-zero; }
 
-		&.barrel-v { font-feature-settings: "ss17"; }
-		&.barrel-h { font-feature-settings: "ss18"; }
+	
+	/* Shape Variants */
 
-
-		/* Number and Wildcard Styles */
-
-		&.eu-hatch        { font-feature-settings: none; }
-		&.eu-text         { font-feature-settings: "ss01"; }
-		&.eu-asterisk     { font-feature-settings: "ss02"; }
-
-		&.asian-hatch     { font-feature-settings: "ss03"; }
-		&.asian-text      { font-feature-settings: "ss04"; }
-		&.asian-asterisk  { font-feature-settings: "ss05"; }
-
-		&.number-hatch    { font-feature-settings: "ss06"; }
-		&.number-text     { font-feature-settings: "ss07"; }
-		&.number-asterisk { font-feature-settings: "ss08"; }
-
-		&.roman-hatch     { font-feature-settings: "ss09"; }
-		&.roman-text      { font-feature-settings: "ss10"; }
-		&.roman-asterisk  { font-feature-settings: "ss11"; }
+	&.round { font-family: dicier-round; }
+	&.block { font-family: dicier-block; }
+	&.flat  { font-family: dicier-flat;  }
+	&.pixel { font-family: dicier-pixel; }
 
 
-		/* TODO: Alternate Pip Pattern Variant */
+	/* Dice Shapes */
+
+	&.d4  { font-feature-settings: "ss12"; }
+	&.d6  { font-feature-settings: "ss06"; }
+	&.d8  { font-feature-settings: "ss13"; }
+	&.d10 { font-feature-settings: "ss14"; }
+	&.d12 { font-feature-settings: "ss15"; }
+	&.d20 { font-feature-settings: "ss16"; }
+
+	&.barrel-v { font-feature-settings: "ss17"; }
+	&.barrel-h { font-feature-settings: "ss18"; }
 
 
-		/* Character Variants */
-		
-		/* Note: To combine character variants, you will need to create a class that uses more than one at a time */
+	/* Number and Wildcard Styles */
 
-		&.poker-dice       { font-feature-settings: "cv10", "cv11", "cv12"; }
-		&.triad-3pip       { font-feature-settings: "cv13"; }
-		&.blank-zero       { font-feature-settings: "cv14"; }
-		&.large-one        { font-feature-settings: "cv15"; }
+	&.eu-hatch        { font-feature-settings: none; }
+	&.eu-text         { font-feature-settings: "ss01"; }
+	&.eu-asterisk     { font-feature-settings: "ss02"; }
 
-		&.rotate-6         { font-feature-settings: "cv16"; }
-		&.rotate-7         { font-feature-settings: "cv17"; }
-		&.rotate-8         { font-feature-settings: "cv18"; }
+	&.asian-hatch     { font-feature-settings: "ss03"; }
+	&.asian-text      { font-feature-settings: "ss04"; }
+	&.asian-asterisk  { font-feature-settings: "ss05"; }
 
-		&.rotate-2         { font-feature-settings: "cv19"; }
-		&.rotate-3         { font-feature-settings: "cv20"; }
+	&.number-hatch    { font-feature-settings: "ss06"; }
+	&.number-text     { font-feature-settings: "ss07"; }
+	&.number-asterisk { font-feature-settings: "ss08"; }
 
-		&.dot-69           { font-feature-settings: "cv21"; }
+	&.roman-hatch     { font-feature-settings: "ss09"; }
+	&.roman-text      { font-feature-settings: "ss10"; }
+	&.roman-asterisk  { font-feature-settings: "ss11"; }
 
-		&.pentacle-coin    { font-feature-settings: "cv22"; }
 
-		&.swap-staff-baton { font-feature-settings: "cv23"; }
+	/* TODO: Alternate Pip Pattern Variant */
 
-		&.dice-sizes       { font-feature-settings: "cv24"; }
 
-		&.diceless         { font-feature-settings: "cv25", "cv26"; }
-		&.diceless-trigram { font-feature-settings: "cv25"; }
-		&.diceless-pips    { font-feature-settings: "cv26"; }
+	/* Character Variants */
+	
+	/* Note: To combine character variants, you will need to create a class that uses more than one at a time */
 
-		&.backgammon-cube  { font-feature-settings: "cv27"; }
+	&.poker-dice       { font-feature-settings: "cv10", "cv11", "cv12"; }
+	&.triad-3pip       { font-feature-settings: "cv13"; }
+	&.blank-zero       { font-feature-settings: "cv14"; }
+	&.large-one        { font-feature-settings: "cv15"; }
 
-		&.barrel-v-100     { font-feature-settings: "cv28"; }
-	}
+	&.rotate-6         { font-feature-settings: "cv16"; }
+	&.rotate-7         { font-feature-settings: "cv17"; }
+	&.rotate-8         { font-feature-settings: "cv18"; }
+
+	&.rotate-2         { font-feature-settings: "cv19"; }
+	&.rotate-3         { font-feature-settings: "cv20"; }
+
+	&.dot-69           { font-feature-settings: "cv21"; }
+
+	&.pentacle-coin    { font-feature-settings: "cv22"; }
+
+	&.swap-staff-baton { font-feature-settings: "cv23"; }
+
+	&.dice-sizes       { font-feature-settings: "cv24"; }
+
+	&.diceless         { font-feature-settings: "cv25", "cv26"; }
+	&.diceless-trigram { font-feature-settings: "cv25"; }
+	&.diceless-pips    { font-feature-settings: "cv26"; }
+
+	&.backgammon-cube  { font-feature-settings: "cv27"; }
+
+	&.barrel-v-100     { font-feature-settings: "cv28"; }
 }
