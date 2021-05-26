@@ -23,7 +23,6 @@ By default, numbers are converted to pipped dice. To use different dice shapes, 
 There are a number of provided classes (see the `dicier.css` file for the full list) for styles and character variants. See the Dicer documentation for more about these.
 
 ## Known Issues
-- There is a bug which causes the display of `20_ON_D20` to be incorrect.
 - You can not mix and match various font features using the provided classes. This is a limitation of CSS and property redefinition. To use multiple `font-feature-settings` you will need to create custom CSS which declars are the features you want in one declaration (see the `.poker-dice` class as an example).
 
 ## License
